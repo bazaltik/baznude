@@ -1,6 +1,6 @@
 <footer class="grid-container">
 	<div class="grid-100 mobile-grid-100">
-		<?php bloginfo('name'); ?> est propulsé par <a href="http://wordpress.org">WordPress</a>
+		<?php bloginfo('name'); ?> proudly powered by <a href="http://wordpress.org">WordPress</a>
 	</div>
 </footer>
 </div>

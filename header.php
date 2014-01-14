@@ -21,12 +21,7 @@
   <script src="<?php echo get_template_directory_uri(); ?>/js/vendor/modernizr-2.6.2.min.js"></script>
   <?php wp_head(); ?>
 </head>
-<body     <?php body_class(); 
-  // This will display a class specific to whatever is being loaded by Wordpress
-  // i.e. on a home page, it will return [class="home"]
-  // on a single post, it will return [class="single postid-{ID}"]
-  // and the list goes on. Look it up if you want more.
-?>>
+<body>
   <!--[if lt IE 7]>
   <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->

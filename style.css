@@ -84,6 +84,7 @@ Tags: html5 ready, naked, unsemantic grid system
 
  textarea {
  	resize: vertical;
+ 	width: 98%;
  }
 
 /* ==========================================================================
