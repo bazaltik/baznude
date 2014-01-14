@@ -1,4 +1,5 @@
-<?php if (have_posts()) : ?>
+<div class="main single">
+  <?php if (have_posts()) : ?>
   <p class="title">
     Hey ! Il y a des Posts !
   </p>
@@ -20,3 +21,4 @@
     Il n'y a pas de Post à afficher !
   </p>
 <?php endif; ?>
+</div>

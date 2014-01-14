@@ -1,5 +1,7 @@
-<footer>
-	<?php bloginfo('name'); ?> est propulsé par <a href="http://wordpress.org">WordPress</a>.
+<footer class="grid-container">
+	<div class="grid-100 mobile-grid-100">
+		<?php bloginfo('name'); ?> est propulsé par <a href="http://wordpress.org">WordPress</a>
+	</div>
 </footer>
 </div>
 <?php wp_footer(); ?>

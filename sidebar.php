@@ -1,4 +1,4 @@
-<div class="side">
+<div class="side grid-20 mobile-grid-100">
 	<!-- Bouton RSS -->
 	<a href="<?php bloginfo('rss2_url'); ?>">S'abonner au flux RSS</a>
 	<!-- Formulaire de recherche -->
