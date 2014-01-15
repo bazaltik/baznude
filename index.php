@@ -8,7 +8,7 @@
 				<h1 class="post-title"><?php the_title(); ?></h1>
 			</header>
 			<p class="post-info">
-				<?php the_time('m.d.Y'); // Display the time it was published ?>
+				<time pubdate datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('m.d.Y'); // Display the time it was published ?></time>
 				<?php if( comments_open() ) : // If we have comments open on this post, display a link and count of them ?>
 				<span class="comments-link">
 					<?php comments_popup_link( __( 'Comment', 'break' ), __( '1 Comment', 'break' ), __( '% Comments', 'break' ) ); 

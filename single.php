@@ -8,7 +8,7 @@
         <h1 class="post-title"><?php the_title(); ?></h1>
       </header>
       <p class="post-info">
-        <?php the_time('m.d.Y'); // Display the time it was published ?>
+        <time pubdate datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('m.d.Y'); // Display the time it was published ?></time>
         <?php // the author(); Uncomment this and it will display the post author ?>
       </p>
       <div class="post-content">
